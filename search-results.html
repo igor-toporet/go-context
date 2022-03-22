@@ -1,0 +1,15 @@
+<p>
+    <em>Elapsed:</em> {{ .Elapsed }}<br />
+    <small><em>Timeout:</em> {{ .Timeout }}</small>
+</p>
+
+<p>
+    {{ range .Results }}
+<div>
+    <a href="{{ .URL }}">{{ .URL }}</a><br />
+    {{ .Title }}
+</div><br />
+{{ else }}
+<div><strong>no rows</strong></div>
+{{ end }}
+</p>

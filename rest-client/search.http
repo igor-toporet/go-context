@@ -1,0 +1,6 @@
+GET http://localhost:8080/search?q=ibm&timeout=55s
+
+
+###
+
+https://api.duckduckgo.com/?q=IBM&format=json&pretty=1&no_html=1
